@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img {
+    max-width: 250px;
+    display: inline-block;
+    border-radius: .50em .50em 0 0;
+    position: relative;
+    bottom: 1em;
+}
+
+body {
+    background-image: url(images/favicon-32x32.png);
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    background-color: hsl(233, 47%, 7%);
+    color: #fff;
+    max-width: 1440px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.contents {
+    background-color: hsl(244, 38%, 16%);
+    border-radius: .50em;
+    max-width: 250px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.details {
+    /* outline: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 60vh;
+    padding: 0 .80em;
+}
+
+.details p:nth-child(1) {
+    font-size: 1.1em;
+    font-weight: 700;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+
+.insight {
+    color: hsl(277, 64%, 61%);
+}
+
+.help-bizz {
+    display: block;
+}
+
+.details p:nth-child(2) {
+    font-size: .70em;
+    font-weight: 400;
+    font-family: Geneva, Verdana, sans-serif Arial, sans-serif;
+    color: hsla(0, 0%, 100%, 0.6);
+    line-height: 1.5;
+}
+
+.span-1,.span-2 {
+    display: block;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    color: hsl(0, 0%, 100%);
+    font-size: .92em;
+    font-weight: 700;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.stat span {
+    font-size: .65em;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+
+
+@media (max-width: 2652px) {
+    .contents {
+        background-color: hsl(244, 38%, 16%);
+        border-radius: .50em;
+        max-width: 250px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 90vh;
+    }
+}
