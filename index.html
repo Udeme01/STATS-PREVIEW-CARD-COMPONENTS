@@ -3,68 +3,70 @@
 <head>
   <link rel="stylesheet" href="styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="title" content="Meta Tags — Preview, Edit and Generate">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
+
   <title>Frontend Mentor | Stats preview card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <!-- <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style> -->
+
 </head>
 <body>
   <section class="container"> <!--section start-->
     <div class="contents"> <!--content start tag-->
-      <img class="img" src="images/image-header-mobile.jpg" alt="">
+
+      <div class="image-div-container">
+        <div class="image" role="img" aria-label="image-header-desktop.jpg">
+        </div>
+        <!-- <img class="image" src="images/image-header-desktop.jpg" role="img" aria-label="image-header-desktop.jpg" alt=""> -->
+      </div>
 
       <div class="details"> <!--details start tag-->
-        <p>
-          Get <span class="insight">insights</span> that <span class="help-bizz">help your business</span> grow.
+        <h1>
+          Get <span class="insight">insights</span> that help your business grow.
+        </h1>
+
+        <p class="para">
+          Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.
         </p>
 
-        <p>
-          Discover the benefits of data
-          <span class="span-1">analytics and make better decisions</span>
-          <span class="span-2">regarding revenue, customer</span>
-          <span class="span-3">experience, and overall efficiency.</span>
-        </p>
+      <nav>
+        <ul class="stat">
+          <li>
+            <h2>10k+</h2>
+            <span>
+              COMPANIES
+            </span>
+          </li>
+  
+          <li>
+            <h2>314</h2>
+            <span>
+              TEMPLATE
+            </span>
+          </li>
+  
+          <li>
+            <h2>12M+</h2>
+            <span>
+              QUERIES
+            </span>
+          </li>
+        </ul>
+      </nav>
 
-        <p class="stat stat-1">
-          10k+ 
-          <span class="company">
-            COMPANIES
-          </span>
-        </p>
-
-        <p class="stat stat-2">
-          314 
-          <span class="template">
-            TEMPLATE
-          </span>
-        </p>
-
-        <p class="stat stat-3">
-          12M+ 
-          <span class="query">
-            QUERIES
-          </span>
-        </p>
       </div> <!--details ending tag-->
 
     </div> <!--content ending tag-->
+    <div class="attribution">
+       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+       Coded by <a href="https://github.com/Udeme01">Udeme Emmanuel</a>.
+     </div>
  </section> <!-- section ending -->
 </body>
 </html>
-
-  <!-- <div>
-    Get insights that help your business grow.
-
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
-  </div> -->
